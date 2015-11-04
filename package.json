@@ -1,0 +1,14 @@
+{
+  "name": "quasar",
+  "version": "1.0.0",
+  "description": "project management suite",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brux <brux.romuar@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
