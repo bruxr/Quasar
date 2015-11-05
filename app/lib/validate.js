@@ -72,7 +72,7 @@ module.exports = function (data, ruleset) {
         
         for (var i in rules) {
             var fn = rules[i][0];
-            var args = rules[i][1];
+            var args = [data[key]].concat(rules[i][1]);
             var result = validators[fn].apply(data[key], args);
             
             if (typeof result !== 'undefined') {
